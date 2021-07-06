@@ -7,7 +7,17 @@ int GetRandom(int min,int max);
 
 int main(){
 
+    char name[10];
+
     int i,result[2],total,num = 0;
+
+    printf("What is your name?\n");
+
+    printf(">");
+
+    scanf("%s",name);
+
+    printf("Hello, %s! \n",name);
 
     unsigned int now = (unsigned int)time( 0 );
 
